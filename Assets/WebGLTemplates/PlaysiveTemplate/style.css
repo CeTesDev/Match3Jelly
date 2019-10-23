@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#gameContainer,
+canvas,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  touch-action-delay: none;
+  touch-action: none;
+  -ms-touch-action: none;
+}
+
+html,
+body {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
